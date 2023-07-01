@@ -1,0 +1,17 @@
+
+.stApp,
+.stApp header{
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image: radial-gradient(#DCABB4 0.75px, #e5e5f7 0.75px);
+    background-size: cover;
+    }
+
+div[data-testid="stForm"]{
+    border: 1px solid #DAA597;
+    border-radius: 10px;
+}
+
+h1{
+    color: #F24E72;
+}
