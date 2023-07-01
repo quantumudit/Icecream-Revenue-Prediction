@@ -13,11 +13,11 @@ st.set_page_config(
 )
 
 # applying custom css styles
-with open("styles.css") as f:
+with open("04_APP/styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # reading the pickle file
-with open("../03_MODELS/icecream_linear_model.pkl", 'rb') as f:
+with open("03_MODELS/icecream_linear_model.pkl", 'rb') as f:
     model = pickle.load(f)
 
 # working on main layout
@@ -27,7 +27,7 @@ st.title("Ice Cream Revenue Prediction")
 col1, col2 = st.columns([0.45, 0.65], gap="medium")
 
 # working on col1 section:
-image = Image.open("../05_RESOURCES/ice-cream.jpg")
+image = Image.open("05_RESOURCES/ice-cream.jpg")
 with col1:
     st.image(image, use_column_width=True)
     st.write("""The application utilizes machine learning techniques to assist in formulating effective business 
