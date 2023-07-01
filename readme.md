@@ -141,7 +141,7 @@ This license allows reusers to distribute, remix, adapt, and build upon the mate
 <!-- External Links -->
 
 [requirements]: ./requirements.txt
-[app_link]: 
+[app_link]: https://icecream-revenue-prediction.streamlit.app/
 
 <!-- Profile Links -->
 

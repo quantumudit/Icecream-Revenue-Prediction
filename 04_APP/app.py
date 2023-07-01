@@ -7,7 +7,8 @@ from PIL import Image
 st.set_page_config(
     page_title="Ice Cream Revenue Prediction App",
     page_icon="🍧",
-    layout='wide',
+    layout="wide",
+    theme="light",
     menu_items=None,
     initial_sidebar_state="collapsed"
 )
